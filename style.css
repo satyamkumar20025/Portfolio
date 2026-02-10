@@ -75,7 +75,6 @@ body {
   padding: 150px;
 } */
 #skills{
-
   padding: 10px;
   margin: 0px;
   text-align: center;
@@ -93,10 +92,17 @@ body {
 
 /* SECTIONS */
 
+.project{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: grey;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
   display: inline-block;
   background: aqua;
-  flex-wrap: wrap;
   padding: 20px;
   margin: 20px;
   width: 280px;
@@ -105,6 +111,7 @@ body {
   text-align: center;
 
 }
+
 
 .card button {
   margin-top: 10px;
@@ -120,17 +127,15 @@ body {
   background: #0056b3;
   
 }
-.section-animate {
-  justify-content:center ;
-}
 
 .section-animate button{
 
   background-color: rgb(255, 106, 47);
+
 }
+
 #other{
   display: inline-block;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
   background-color: lightgreen;
@@ -143,4 +148,7 @@ footer {
     color:whitesmoke;
     padding: 20px;
     
+}
+h2{
+  text-align: center;
 }
